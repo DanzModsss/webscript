@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DanzModss | Jual Script Bot</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    }
+    .dark body {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+    }
+    .overlay {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      overflow: hidden;
+    }
+    .bokeh {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.07);
+      filter: blur(40px);
+      animation: float 12s ease-in-out infinite;
+      opacity: 0.6;
+    }
+    .b1 { top: 10%; left: 20%; width: 150px; height: 150px; }
+    .b2 { top: 50%; left: 60%; width: 100px; height: 100px; animation-delay: 4s; }
+    .b3 { top: 30%; left: 80%; width: 200px; height: 200px; animation-delay: 8s; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-40px); }
+    }
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.04);
+      box-shadow: 0 0 25px rgba(99, 102, 241, 0.35);
+    }
+    .btn {
+      transition: all 0.25s ease-in-out;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body class="relative text-black dark:text-white min-h-screen transition-colors duration-500 dark:bg-gray-900">
+  <!-- Background Estetik -->
+  <div class="overlay">
+    <div class="bokeh b1"></div>
+    <div class="bokeh b2"></div>
+    <div class="bokeh b3"></div>
+  </div>
+
+  <!-- Toggle Mode -->
+  <div class="fixed top-4 right-4 z-50">
+    <button id="toggleMode" class="bg-indigo-600 text-white px-3 py-1.5 rounded-full text-sm hover:bg-indigo-700 btn">
+      🌙 Dark Mode
+    </button>
+  </div>
+
+  <!-- Header -->
+  <header class="text-center py-14 px-4">
+    <h1 class="text-5xl font-extrabold text-indigo-600 dark:text-indigo-400 drop-shadow-lg">💼 DanzMods</h1>
+    <p class="text-gray-700 dark:text-gray-300 mt-4 text-lg max-w-2xl mx-auto leading-relaxed">
+      Tempat jual script WhatsApp & Telegram — langsung kirim & terpercaya.
+    </p>
+    <div class="mt-6 flex justify-center gap-4">
+      <a href="https://wa.me/6283829542400" target="_blank" class="bg-green-500 hover:bg-green-600 px-6 py-2 rounded-full font-semibold text-white shadow-lg btn">
+        💬 Hubungi Admin
+      </a>
+    </div>
+  </header>
+
+  <!-- Produk -->
+  <main class="max-w-7xl mx-auto px-6">
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mt-6">
+
+      <!-- Produk 1 -->
+      <div class="card bg-white dark:bg-white/5 p-6 rounded-2xl shadow-lg">
+        <h2 class="text-xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">OPEN SCRIPT EVIL CRASHER V9PRO 30K</h2>
+        <p class="text-sm text-gray-700 dark:text-gray-300">Bisa ngebug, auto c1</p>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="text-green-600 dark:text-green-400 font-bold text-lg">Rp 30.000</span>
+          <a href="https://wa.me/6283829542400?text=Beli%20Script%20Bug%20Evil" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 px-4 py-1.5 rounded-full text-sm font-medium text-white btn">Beli</a>
+        </div>
+      </div>
+
+      <!-- Produk 2 -->
+      <div class="card bg-white dark:bg-white/5 p-6 rounded-2xl shadow-lg">
+        <h2 class="text-xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">OPEN RESELLER EVIL CRASHER 75K</h2>
+        <p class="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-line">
+BENEFIT RESELLER bisa jual evil bisa open p.o bisa adddb sendiri free up permanen masuk gb ress dll.
+        </p>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="text-green-600 dark:text-green-400 font-bold text-lg">Rp 75.000</span>
+          <a href="https://wa.me/6283829542400?text=Beli%20Reseller%20Evil" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 px-4 py-1.5 rounded-full text-sm font-medium text-white btn">Beli</a>
+        </div>
+      </div>
+
+      <!-- Produk 3 -->
+      <div class="card bg-white dark:bg-white/5 p-6 rounded-2xl shadow-lg">
+        <h2 class="text-xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">OPEN PT/PARTNER EVIL CRASHER 140K</h2>
+        <p class="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-line">
+BENEFIT PT (BIASA) bisa jual evil bisa open p.o bisa adddb sendiri di gb free up permanen masuk gb ress bisa open ress jadi admin di gb ress dapat 1 admin ch dll.
+        </p>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="text-green-600 dark:text-green-400 font-bold text-lg">Rp 140.000</span>
+          <a href="https://wa.me/6283829542400?text=Beli%20Partner%20Evil" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 px-4 py-1.5 rounded-full text-sm font-medium text-white btn">Beli</a>
+        </div>
+      </div>
+
+      <!-- Produk 4 -->
+      <div class="card bg-white dark:bg-white/5 p-6 rounded-2xl shadow-lg">
+        <h2 class="text-xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">OPEN TK/TANGAN KANAN EVIL CRASHER 200K</h2>
+        <p class="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-line">
+BENEFIT TK bisa jual evil bisa open p.o bisa adddb sendiri di gb free up permanen masuk gb ress bisa open ress bisa open pt jadi admin di gb ress jadi admin di gb pt dapat 3 admin ch dapat no enc 100% dapat sc adddb sekian dll.
+        </p>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="text-green-600 dark:text-green-400 font-bold text-lg">Rp 200.000</span>
+          <a href="https://wa.me/6283829542400?text=Beli%20TK%20Evil" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 px-4 py-1.5 rounded-full text-sm font-medium text-white btn">Beli</a>
+        </div>
+      </div>
+
+      <!-- Produk 5 -->
+      <div class="card bg-white dark:bg-white/5 p-6 rounded-2xl shadow-lg">
+        <h2 class="text-xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">OPEN PARTNER PRIBADI DANZMODSS 400K</h2>
+        <p class="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-line">
+BENEFIT PT PRIB sama kaya pt & tk, bedanya adalah: dapat all admin ch dapat sc no enc setiap up dapat func dari kentchie dibantu naik nama dapat jual all tier evil crasher seperti reseller, pt, dan tk (sc juga termasuk) udh ya pokonya itu, pt pribadi ini spesial bgt TANYAKAN PM
+        </p>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="text-green-600 dark:text-green-400 font-bold text-lg">Rp 400.000</span>
+          <a href="https://wa.me/6283829542400?text=Beli%20PT%20Pribadi%20DanzModss" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 px-4 py-1.5 rounded-full text-sm font-medium text-white btn">Beli</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 dark:text-gray-400 mt-16 pb-10 px-4">
+    &copy; 2025 <span class="text-indigo-600 dark:text-indigo-400 font-medium">DanzModss</span> — Jual Script Bot & Tools Digital
+  </footer>
+
+  <!-- Toggle Dark Mode -->
+  <script>
+    const toggle = document.getElementById('toggleMode');
+    toggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      toggle.textContent = document.documentElement.classList.contains('dark')
+        ? '☀️ Light Mode'
+        : '🌙 Dark Mode';
+    });
+  </script>
+</body>
+  </html>
